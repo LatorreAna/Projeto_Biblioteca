@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\F5Ace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\F5Ace\\AppData\\Roaming\\NuGet\\NuGet.Config"

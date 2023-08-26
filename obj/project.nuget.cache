@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPG4wgj6HWzYOyKrKFhjl3epbX/pCkpHx11Xg7m7MbFkxka3Os3bg8uzX88B+WKvccdG8xrRi9Qn9i/FD4Xshg==",
+  "dgSpecHash": "WhPqsgqddeRpRmo/plZkU28HGcRSLUdK1YcYm+bfGeJ1tEq3hp+wWh8ZAEqxtPNsbE8YzeIG9Mp05XYJmB/u8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Biblioteca\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
@@ -29,10 +29,10 @@
     "C:\\Users\\F5Ace\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
     "C:\\Users\\F5Ace\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
     "C:\\Users\\F5Ace\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
-    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512",
     "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\F5Ace\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
