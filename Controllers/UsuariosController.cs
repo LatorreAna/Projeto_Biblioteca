@@ -1,4 +1,5 @@
 using Biblioteca.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca.Controllers
@@ -7,20 +8,21 @@ namespace Biblioteca.Controllers
     {
         public IActionResult admin()
         {
+            Autenticacao.CheckLogin(this);
             return View();
         }
 
         [HttpPost]
-        public IActionResult Listar(Usuario user)
+        public IActionResult Listar()
         {
-            _ = new UsuarioService();
+            UsuarioService usuarioService = new UsuarioService();
 
-            return RedirectToAction("Listagem");
+            return RedirectToAction("ListarUsuarios");
         }
 
-        public IActionResult Listagem()
+        public IActionResult ListarUsuarios(Usuario user)
         {
-            return View();
+            return View(user);
         }
 
         public IActionResult incluirUsuario()

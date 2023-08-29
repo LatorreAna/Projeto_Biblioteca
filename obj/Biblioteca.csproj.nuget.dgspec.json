@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Ana - Senac\\UC7\\UC07 - ATIVIDADE 2 BACKUP\\Projeto_Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj": {
+    "C:\\Ana - Senac\\UC7\\UC07 - ATIVIDADE 2 BACKUP\\Projeto_Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Ana - Senac\\UC7\\UC07 - ATIVIDADE 2 BACKUP\\Projeto_Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\F5Ace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\F5Ace\\Desktop\\Ana\\Projeto_Biblioteca\\obj\\",
+        "projectPath": "C:\\Ana - Senac\\UC7\\UC07 - ATIVIDADE 2 BACKUP\\Projeto_Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\aloma\\.nuget\\packages\\",
+        "outputPath": "C:\\Ana - Senac\\UC7\\UC07 - ATIVIDADE 2 BACKUP\\Projeto_Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\F5Ace\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\aloma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -39,6 +39,8 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
             },
