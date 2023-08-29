@@ -164,10 +164,6 @@ C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcor
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\admin.cshtml.g.cs
-C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\EditarUsuario.cshtml.g.cs
-C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\ListarUsuarios.cshtml.g.cs
-C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuarios\RegistrarUsuarios.cshtml.g.cs
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.RazorTargetAssemblyInfo.cache
@@ -177,3 +173,7 @@ C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcor
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\admin.cshtml.g.cs
+C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListarUsuarios.cshtml.g.cs
+C:\Ana - Senac\UC7\UC07 - ATIVIDADE 2 BACKUP\Projeto_Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\RegistrarUsuarios.cshtml.g.cs

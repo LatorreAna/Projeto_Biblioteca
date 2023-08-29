@@ -14,7 +14,7 @@ namespace Biblioteca.Models
             }
         }
 
-        public void incluirUsuario(Usuario user)
+        public void registrarUsuario(Usuario user)
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {

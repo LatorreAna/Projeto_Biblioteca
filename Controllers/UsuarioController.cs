@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 using Biblioteca.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca.Controllers
 {
-    public class UsuariosController : Controller
+    public class UsuarioController : Controller
     {
         public IActionResult admin()
         {
@@ -15,36 +16,37 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Listar()
         {
-            UsuarioService usuarioService = new UsuarioService();
-
             return RedirectToAction("ListarUsuarios");
         }
 
-        public IActionResult ListarUsuarios(Usuario user)
+        public IActionResult ListarUsuarios()
         {
-            return View(user);
+            UsuarioService usuarioService = new UsuarioService();
+            return View(usuarioService.Listar());
         }
 
-        public IActionResult incluirUsuario()
+        public IActionResult RegistrarUsuarios(Usuario user)
         {
             Autenticacao.CheckLogin(this);
-            return View();
+            UsuarioService usuarioService = new UsuarioService();
+            usuarioService.registrarUsuario(user);
+            return RedirectToAction("ListarUsuarios");
         }
 
-        public IActionResult editarUsuario(int id)
+        public IActionResult EditarUsuario(int id)
         {
             Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
-            Usuario user = us.ObterPorId(id);
-            return View(user);
+            Usuario u = us.ObterPorId(id);
+            return View(u);
         }
 
         public IActionResult excluirUsuario(int id)
         {
             Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
-            Usuario user = us.ObterPorId(id);
-            return View(user);
+            Usuario u = us.ObterPorId(id);
+            return View(u);
         }
     }
 }
