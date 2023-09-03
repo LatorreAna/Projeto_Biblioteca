@@ -39,10 +39,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var e in Model)
+                    @foreach (Emprestimo e in Model)
                     {
-                        @if ((System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao) > 0))
+                        @if(e.Devolvido)
                         {
+                            Classe = "text-success";
+                        }
+                        else if(!e.Devolvido && System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao) > 0 )
+                        {                        
                             Classe = "text-danger";
                         }
                         else

@@ -21,7 +21,7 @@ namespace Biblioteca.Controllers
 
         public static bool verificaLoginSenha(string Login, string senha, Controller controller)
         {
-            using (BibliotecaContext bc = new BibliotecaContext())
+            using(BibliotecaContext bc = new BibliotecaContext())
             {
                 usuarioInicial();
 
@@ -48,7 +48,7 @@ namespace Biblioteca.Controllers
         {
             if (controller.HttpContext.Session.GetInt32("tipo") != Usuario.ADMIN)
             {
-                controller.Request.HttpContext.Response.Redirect("/Usuarios/admin");
+                controller.Request.HttpContext.Response.Redirect("/Usuario/admin");
             }
         }
         public static void usuarioInicial()
@@ -57,7 +57,7 @@ namespace Biblioteca.Controllers
             {
                 IQueryable<Usuario> usuarioEncontrado = bc.Usuarios.Where(u => u.Login == "admin");
                 {
-                    if (usuarioEncontrado.ToList().Count == 0)
+                    if(usuarioEncontrado.ToList().Count == 0)
                     {
                         Usuario admin = new Usuario();
                         admin.Login = "admin";

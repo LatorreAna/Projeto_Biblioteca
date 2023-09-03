@@ -13,8 +13,14 @@ namespace Biblioteca.Models
                 return bc.Usuarios.ToList();
             }
         }
-
-        public void registrarUsuario(Usuario user)
+        public Usuario ListarId(int id)
+        {
+            using (BibliotecaContext bc = new BibliotecaContext())
+            {
+                return bc.Usuarios.Find(id);
+            }
+        }
+        public void incluirUsuario(Usuario user)
         {
             using (BibliotecaContext bc = new BibliotecaContext())
             {
@@ -42,6 +48,7 @@ namespace Biblioteca.Models
             using (BibliotecaContext bc = new BibliotecaContext())
             {
                 return bc.Usuarios.Find(id);
+
             }
         }
 
@@ -50,6 +57,7 @@ namespace Biblioteca.Models
             using (BibliotecaContext bc = new BibliotecaContext())
             {
                 bc.Usuarios.Remove(bc.Usuarios.Find(id));
+                bc.SaveChanges();
             }
         }
     }
